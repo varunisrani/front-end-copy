@@ -4,37 +4,37 @@
 
 @layer utilities {
   .slidebar {
-    @apply flex flex-col min-h-screen w-[16rem] bg-nb8 rounded-lg mt-2 ml-2 mb-2 mad:w-[17rem] mad:mr-2;
+    @apply flex flex-col min-h-screen w-[22rem] mad1:w-[25rem] bg-nb8 rounded-lg mt-2 ml-2 mb-2 mad:w-[17rem]  mad:mr-2;
   }
   .topmain {
     @apply flex flex-col w-full;
   }
   .topslidebar {
-    @apply flex flex-col mac:w-[40rem] bg-nb8 h-[8rem] rounded-lg mt-3 mr-2;
+    @apply flex flex-col mac:w-[40rem] bg-nb8 h-[11rem] rounded-lg mt-3 mr-2 ml-3;
   }
   .topinput {
-    @apply mad:flex mad:justify-center mad:items-center mad:mt-4;
+    @apply flex justify-center items-center mad:flex mad:justify-center mad:items-center mad:mt-4;
   }
   .topchat {
     @apply mad:flex mad:flex-row mad:justify-center mad:items-center mad:mr-60;
   }
   .inputmain {
-    @apply flex flex-row w-[40rem] mac:w-[34rem] bg-nb8 h-[3rem] rounded-lg mt-10 mr-5 mac:ml-5 mac:mt-1;
+    @apply flex flex-row  text-xl w-full mad1:mr-10  ml-[1rem] mr-[1rem] mac:w-[34rem] bg-nb8 h-[5rem] rounded-xl mt-8  mac:ml-5 mac:mt-1;
   }
   .input {
-    @apply w-[30rem] bg-nb8 text-white text-xs ml-2  focus:outline-none;
+    @apply w-[40rem] bg-nb8 text-xl text-white ml-2  focus:outline-none;
   }
   .dashhome {
-    @apply flex flex-row min-h-screen w-full bg-nb6;
+    @apply flex flex-row min-h-screen w-full bg-nb7;
   }
   .chatmain {
-    @apply flex flex-row justify-center items-center mt-7 mad:flex mad:flex-row mad:justify-between mad:ml-10 mad:gap-7 mad:mr-20;
+    @apply flex flex-row justify-between items-center ml-12 mr-12 mt-[5rem] mad:flex mad:flex-row mad:justify-between mad:ml-10 mad:gap-7 mad:mr-20;
   }
   .imagemain {
-    @apply flex flex-col bg-nb6 w-[40rem] h-[15rem] mad:mt-5;
+    @apply flex flex-col bg-nb7 w-full h-[15rem] mad:mt-5;
   }
   .image {
-    @apply h-[7rem] w-[7rem] mad:h-[9rem] mad:w-[9rem];
+    @apply h-[15rem] w-[15rem] mad:h-[9rem] mad:w-[9rem]  mad1:h-[12rem] mad1:w-[12rem] mad2:h-[12rem] mad2:w-[12rem];
   }
   .imageedit {
     @apply h-[10rem] w-[10rem] rounded-lg mad:h-[12rem] mad:w-[12rem];
@@ -43,13 +43,16 @@
     @apply flex flex-row min-h-screen w-full bg-nb6 gap-2;
   }
   .chatinputmain {
-    @apply flex flex-row w-[25rem]  bg-nb8 h-[3rem] rounded-lg mt-6 mr-2 mad:mt-10;
+    @apply flex flex-row w-[55rem] mad1:w-[48rem] mad2:w-[48rem] bg-nb8 h-[4rem] rounded-lg mt-6 ml-5 mr-2 mad:mt-10;
   }
   .input {
     @apply w-[16rem] bg-nb8 text-white text-xs ml-2  focus:outline-none;
   }
+  .chatinput {
+    @apply w-[16rem] bg-nb8 text-white text-[1rem] ml-2  focus:outline-none;
+  }
   .chatuser {
-    @apply flex flex-col w-[25rem]   h-[6rem] bg-nb6 rounded-lg mt-2 border border-nb4 border-opacity-10 mad:mt-10;
+    @apply flex flex-col w-[55rem] mad1:w-[48rem] mad2:mt-5 mad2:w-[48rem] h-[6rem] bg-nb6 rounded-lg mt-10 mad1:mt-7 ml-5 border border-nb4 border-opacity-10 mad:mt-10;
   }
   .user {
     @apply flex flex-col mad:absolute mad:right-0 mad:mr-10;
@@ -58,28 +61,28 @@
     @apply h-[5rem] w-[5rem] rounded-lg;
   }
   .login {
-    @apply flex flex-row h-screen bg-nb7;
+    @apply flex flex-row h-screen w-full bg-nb7;
   }
   .loginform {
-    @apply flex flex-col ml-12 mt-7 mad:ml-20 mad:pl-10 mad:mt-10;
+    @apply flex flex-col ml-20 mt-20  mad:ml-20 mad:pl-10 mad:mt-10;
   }
   .inputcreate {
-    @apply px-8 py-2 bg-nb6 text-xs text-white rounded-lg;
+    @apply w-[20rem] px-2 py-3 bg-nb6 text-[0.9rem] text-white rounded-lg border border-gray-100/10;
   }
   .register {
     @apply flex flex-row h-screen bg-nb7;
   }
   .about {
-    @apply flex flex-row ml-5 absolute bottom-0 mb-7 text-xs text-nb3;
+    @apply flex flex-row ml-10 absolute bottom-0 mb-7 text-xl text-nb3;
   }
   .Form {
-    @apply flex flex-col ml-12 mt-7 mad:ml-20 mad:pl-10 mad:mt-10 mad:pt-5;
+    @apply flex flex-col ml-[6rem] mt-[6rem] mad:ml-20 mad:pl-10 mad:mt-10 mad:pt-5 mb-12;
   }
   .regaccount {
-    @apply bg-sg5 rounded-lg py-2 text-xs w-[25rem] mt-5;
+    @apply bg-sg5 rounded-lg py-3 text-[1rem] font-medium w-[41rem] mt-10;
   }
   .regtext {
-    @apply text-2xl font-thin text-white;
+    @apply text-4xl font-thin text-white;
   }
   .reginput {
     @apply flex flex-row gap-5 mt-8;
@@ -88,10 +91,10 @@
     @apply w-[30rem] bg-nb6 text-xs text-nb3 py-2 rounded-lg mt-10;
   }
   .regback {
-    @apply w-[4rem] bg-nb6 text-white text-xs rounded-lg ml-10 py-2;
+    @apply w-[5rem] bg-nb6 text-nb3 text-[1rem] rounded-lg ml-10 py-2;
   }
   .regjoin {
-    @apply px-3 py-2 bg-sg6 text-xs rounded-lg ml-10;
+    @apply px-3 py-2 bg-sg6 text-[1rem] rounded-lg;
   }
   .rightmenu {
     @apply flex flex-col w-[25rem] h-screen bg-nb7 rounded-xl;
@@ -100,12 +103,12 @@
     @apply flex flex-row text-xs text-white ml-5 mt-8;
   }
   .library {
-    @apply flex flex-row gap-8 mad:flex mad:flex-row mad:justify-between mad:mr-20;
+    @apply flex flex-row gap-8 mad1:gap-4 mad1:mr-[12rem] mad:flex mad:flex-row mad:justify-between mad:mr-20;
   }
   .librarysub {
-    @apply flex flex-col w-[10rem] h-screen bg-nb6;
+    @apply flex flex-col h-screen bg-nb7 ml-20 mb-10;
   }
   .libraryimage {
-    @apply flex flex-col w-[10rem] h-[9rem] bg-nb8 rounded-lg mt-5 ml-2;
+    @apply flex flex-col w-[19rem] h-[15rem]  bg-nb8 rounded-lg mt-5 ml-2;
   }
 }

@@ -1,30 +1,67 @@
+import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
 export default function Form3() {
   return (
-    <div className="Form">
+    <motion.div
+      initial={{ opacity: 0, y: 50 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.3 }}
+      className="Form"
+    >
       <div className="flex flex-col mt-12">
-        <span className="text-2xl font-thin text-white">
+        <motion.span
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.3, delay: 0.1 }}
+          className="text-4xl font-thin text-white"
+        >
           Join or Create a Workspace
-        </span>
-        <span className="text-xs text-nb3 mt-3">
+        </motion.span>
+        <motion.span
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.3, delay: 0.2 }}
+          className="text-[1rem] text-nb3 mt-5"
+        >
           Connect with others by joining an existing workspace or create a new
           one to collaborate
-        </span>
-        <span className="text-xs text-nb3">with your team.</span>
-        <div className="flex flex-row mt-10">
+        </motion.span>
+        <motion.span
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.3, delay: 0.3 }}
+          className="text-[1rem] text-nb3"
+        >
+          with your team.
+        </motion.span>
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.3, delay: 0.4 }}
+          className="flex flex-row mt-[4rem]"
+        >
           <input
-            className="px-10 w-[20rem] py-2 bg-nb6 text-xs text-white rounded-lg"
+            className="px-10 w-[27rem] py-4 bg-nb6 text-[1rem] text-white rounded-lg"
             placeholder="Your workspace URL .artificium.app"
           />
-          <button className="w-[8rem] bg-sg5 text-xs rounded-lg ml-10">
+          <motion.button
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="w-[10rem] bg-sg5 text-[1rem] px-2 font-medium rounded-lg ml-10"
+          >
             <Link to="/create3">Join Workspace</Link>
-          </button>
-        </div>
-        <button className="regcreate">
+          </motion.button>
+        </motion.div>
+        <motion.button
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.3, delay: 0.5 }}
+          className="w-[40rem] bg-nb6 text-[1rem] text-nb3 py-3 rounded-lg mt-20"
+        >
           <Link to="/create3">Create new Workspace</Link>
-        </button>
+        </motion.button>
       </div>
-    </div>
+    </motion.div>
   );
 }

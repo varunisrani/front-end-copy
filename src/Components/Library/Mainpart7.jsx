@@ -1,10 +1,10 @@
-import TopSlideBAr from "../ChatDash copy/TopSlideBAr";
+import Top from "../Dashboard/Slidebar/Top";
 import Library from "./Library";
 
 export default function Mainpart7() {
   return (
     <div className="topmain">
-      <TopSlideBAr />
+      <Top />
       <Library />
     </div>
   );

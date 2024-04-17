@@ -8,6 +8,9 @@ export default {
         chat: { min: "846x", max: "1150px" },
         glitch: { min: "848px", max: "998px" },
         mad: { min: "847px", max: "1200px" },
+        mad1: { min: "1280px", max: "1366px" },
+        mad2: { min: "1366px", max: "1440px" },
+        mad3: { min: "1440px", max: "1920px" },
       },
 
       colors: {

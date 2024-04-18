@@ -34,7 +34,7 @@ export default function ImageEditing() {
   }
 
   return (
-    <div className="flex flex-col w-full bg-nb8 mt-3 h-[28rem] mad1:h-[24rem] mad2:h-[25rem] mad:w-full mad:h-[20rem] ml-3 mb-1">
+    <div className="flex flex-col w-full bg-nb8 mt-3 h-[28rem] mad1:h-[24rem] mad2:h-[25rem] mad5:h-[35rem] mad:w-full mad:h-[20rem] ml-3 mb-1">
       <div className="flex flex-row mt-5 ml-5">
         <IoChevronBack className="text-white mt-1" size={20} />
         <span className="text-xl text-white font-medium ml-5">
@@ -52,10 +52,10 @@ export default function ImageEditing() {
       <div className="flex flex-row ">
         <img
           src="https://i.ibb.co/ZN1yDK7/Image.png"
-          className="h-[22rem] w-[22rem] mad1:h-[18rem] mad2:h-[18rem] mad2:w-[18rem] mad1:w-[18rem] rounded-lg ml-5 mt-5 mad:h-[15rem] mad:w-[15rem]"
+          className="h-[22rem] w-[22rem] mad1:h-[18rem] mad2:h-[18rem] mad2:w-[18rem] mad1:w-[18rem] rounded-lg ml-5 mt-5 mad:h-[15rem] mad:w-[15rem] mad5:h-[30rem] mad5:w-[30rem]"
         />
-        <div className="flex flex-col absolute  mr-20  mt-5 right-0 bg-nb8 w-[42rem] h-[21rem] mad1:w-[35rem] mad1:h-[18rem] mad2:h-[18rem] mad: border border-nb3 rounded-lg mad:mt-10 glitch:ml-20 ">
-          <div className="flex flex-row text-white gap-2 ml-2 mt-2 py-2 w-[41rem] mad1:w-[34rem] border border-nb3 rounded-lg ">
+        <div className="flex flex-col absolute  mr-20  mt-5 right-0 bg-nb8 w-[42rem] h-[21rem] mad1:w-[35rem] mad1:h-[18rem] mad2:h-[18rem] mad: border border-nb3 rounded-lg mad:mt-10 glitch:ml-20 mad5:w-[60rem]  mad5:h-[28rem]">
+          <div className="flex flex-row text-white gap-2 ml-2 mt-2 py-2 w-[41rem] mad1:w-[34rem] border border-nb3 rounded-lg mad5:w-[59rem]">
             <AiOutlineScan className="ml-2" size={20} />
             <CiCamera size={20} />
             <LuSun size={20} />

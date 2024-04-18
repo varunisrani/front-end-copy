@@ -13,12 +13,12 @@ export default function Mainpart5() {
         src="https://i.ibb.co/BNWRYbM/Illustration1.png"
         className="flex absolute top-0 right-0 h-1/2 w-1/1 min-h-screen"
       />
-      <div className="mad4:ml-[3rem]">
+      <div className="mad4:ml-[3rem]  mad5:ml-[9rem]">
         <Form5 />
       </div>
       <div className="about">
         <span>Artificium.app © 2023</span>
-        <span className="ml-[37rem] pl-10 mad1:ml-[29rem] mad2:ml-[34rem] mad3:ml-[34rem] mad4:ml-[33rem]">
+        <span className="ml-[37rem] pl-10 mad1:ml-[29rem] mad2:ml-[34rem] mad3:ml-[34rem] mad4:ml-[33rem] mad5:ml-[44rem]">
           Privacy Policy
         </span>
       </div>

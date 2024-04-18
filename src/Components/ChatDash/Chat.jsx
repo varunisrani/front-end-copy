@@ -55,7 +55,7 @@ export default function Chat() {
           <Input />
         </div>
       </div>
-      <div className="user">
+      <div className="flex flex-col mad:absolute mad:right-0 mad:mr-10 mad5:absolute mad5:right-0 mad5:mr-10 ">
         <div className="flex flex-row ml-3 mt-5">
           <span className="text-[1rem] mad1:text-[0.9rem] mad2:text-[0.9rem] text-nb3 ">
             Currently Online

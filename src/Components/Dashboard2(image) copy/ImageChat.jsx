@@ -8,7 +8,7 @@ export default function ImageChat() {
           src="https://i.ibb.co/CVv9bLv/Avatar.png"
           className="h-[2rem]  ml-10"
         />
-        <span className="  mad:ml-4 text-white text-[1rem] mt-1 ml-6 font-medium">
+        <span className="  mad:ml-4 text-white text-[1rem] mt-1 ml-6 font-medium mad5:text-[1rem]">
           Artificium
         </span>
       </div>
@@ -22,6 +22,7 @@ export default function ImageChat() {
       </span>
       <div className="flex flex-row ml-[6rem] mt-10 gap-7 mad:ml-12">
         <Image1 link="https://i.ibb.co/sP9Zd2P/Image.png" />
+
         <Image1 link="https://i.ibb.co/ZN1yDK7/Image.png" />
         <Image1 link="https://i.ibb.co/T2XF8G6/Image.png" />
       </div>

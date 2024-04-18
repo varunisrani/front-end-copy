@@ -8,7 +8,7 @@ export default function Mainpart1() {
           src="https://i.ibb.co/rfCS6JF/Logo.png"
           className="h-8 w-8 ml-5 mt-5 "
         />
-        <div className="mad3:mt-[9rem] mad4:ml-[4rem]">
+        <div className="mad3:mt-[9rem] mad4:ml-[4rem] mad5:mt-[15rem] mad5:ml-[7rem]">
           <Form1 />
         </div>
       </div>

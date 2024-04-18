@@ -6,7 +6,7 @@ export default function Library() {
   return (
     <div className="library">
       <div className="librarysub">
-        <div className="flex flex-row">
+        <div className="flex flex-row ">
           <span className="text-[1rem] text-white ml-5 mt-5 ">Images</span>
           <BsThreeDotsVertical className="text-white mt-7 ml-[13rem]  " />
         </div>

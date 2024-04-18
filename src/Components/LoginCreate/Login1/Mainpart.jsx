@@ -8,7 +8,9 @@ export default function Mainpart() {
           src="https://i.ibb.co/rfCS6JF/Logo.png"
           className="h-8 w-8 ml-5 mt-5 "
         />
-        <Form />
+        <div className="mad3:mt-40">
+          <Form />
+        </div>
       </div>
     </div>
   );

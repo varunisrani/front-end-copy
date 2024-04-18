@@ -51,7 +51,7 @@ export default function Chat() {
             />
           </div>
         </div>
-        <div className="mad:mt-5 mad1:mt-[19rem] mad2:mt-[19rem]">
+        <div className="mad:mt-5 mad1:mt-[19rem] mad2:mt-[20rem] mad3:mt-[22rem]">
           <Input />
         </div>
       </div>
@@ -60,7 +60,7 @@ export default function Chat() {
           <span className="text-[1rem] mad1:text-[0.9rem] mad2:text-[0.9rem] text-nb3 ">
             Currently Online
           </span>
-          <span className="text-[1rem] text-nb3 ml-[5rem] mad1:ml-[3rem] mad1:absolute mad1:right-0 mad2:ml-[3rem] mad2:absolute mad2:right-0 mad2:mr-4 ">
+          <span className="text-[1rem] text-nb3 ml-[5rem] mad1:ml-[3rem] mad1:absolute mad1:right-0 mad2:ml-[3rem] mad2:absolute mad2:right-0 mad2:mr-4 mad3:ml-[3rem] mad3:absolute mad3:right-0 mad3:mr-4">
             2
           </span>
         </div>
@@ -117,7 +117,7 @@ export default function Chat() {
           <span className="text-[1rem] mad1:text-[0.9rem] mad2:text-[0.9rem] text-nb3">
             Currently Offline
           </span>
-          <span className="text-[1rem] text-nb3  mad1:absolute mad1:right-0 mad1:mr-4 mad2:absolute mad2:right-0 mad2:mr-4 pl-5 ml-[4rem]">
+          <span className="text-[1rem] text-nb3  mad1:absolute mad1:right-0 mad1:mr-4 mad2:absolute mad2:right-0 mad2:mr-4 mad3:absolute mad3:right-0 mad3:mr-4 pl-5 ml-[4rem]">
             1
           </span>
         </div>

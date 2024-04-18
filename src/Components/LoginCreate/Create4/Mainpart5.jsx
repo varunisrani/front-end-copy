@@ -16,7 +16,9 @@ export default function Mainpart5() {
       <Form5 />
       <div className="about">
         <span>Artificium.app © 2023</span>
-        <span className="ml-[37rem] pl-10 mad1:ml-[22rem]">Privacy Policy</span>
+        <span className="ml-[37rem] pl-10 mad1:ml-[29rem] mad2:ml-[34rem] mad3:ml-[24rem] ">
+          Privacy Policy
+        </span>
       </div>
     </div>
   );

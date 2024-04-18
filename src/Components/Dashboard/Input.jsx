@@ -10,8 +10,10 @@ export default function Input() {
         className="input"
         placeholder="You can ask me anything! I am here to help."
       />
-      <FaFileMedical className="text-nb3 ml-[45rem] mt-7 " />
-      <LuSend className="text-nb3 ml-8 mt-7 mac:mr-5 mad1:mr-3 mad2:mr-3" />
+      <div className="flex flex-row absolute right-0 mr-10">
+        <FaFileMedical className="text-nb3 ml-[45rem] mt-7 " />
+        <LuSend className="text-nb3 ml-8 mt-7 mac:mr-5 mad1:mr-3 mad2:mr-3" />
+      </div>
     </div>
   );
 }

@@ -9,9 +9,9 @@ export default function Top() {
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.3 }}
-      className="topmain"
+      className="flex flex-col "
     >
-      <nav className="topslidebar">
+      <nav className="flex flex-col mac:w-[20rem] mad2:w-[70rem]  bg-nb8 h-[11rem] rounded-lg mt-3 mr-2 ml-3">
         <div className="flex flex-row">
           <div className="flex flex-col ml-5 mt-5">
             <span className="text-xl text-white">Orbital Oddysey</span>

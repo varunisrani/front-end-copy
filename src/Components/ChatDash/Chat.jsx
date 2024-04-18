@@ -51,7 +51,7 @@ export default function Chat() {
           </span>
         </div>
 
-        <div className="mad:flex mad:justify-center mad:items-center mad2:mt-8 mad3:mt-10">
+        <div className="mad:flex mad:justify-center mad:items-center mad2:mt-10 mad3:mt-10">
           <Input />
         </div>
       </div>

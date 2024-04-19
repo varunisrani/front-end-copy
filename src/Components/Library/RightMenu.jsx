@@ -6,13 +6,13 @@ export default function RightMenu() {
   return (
     <div className="rightmenu">
       <div className="flex flex-row ml-5 mt-5">
-        <span className="text-xs text-white">Captain Drake</span>
+        <span className="text-xs text-white mad5:text-xl">Captain Drake</span>
         <div className="flex flex-row text-white absolute right-0 mr-5">
-          <IoResize className="mr-5" />
-          <MdClose />
+          <IoResize className="mr-5" size={20} />
+          <MdClose size={20} />
         </div>
       </div>
-      <span className="text-xs text-nb4 ml-5 mt-3">
+      <span className="text-xs text-nb4 ml-5 mt-3 mad5:text-[1rem]">
         Natural born leader with years of experience in space exploration.
       </span>
       <div className="rightmenu1">

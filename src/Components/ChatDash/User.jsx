@@ -86,7 +86,7 @@ export default function User() {
           </span>
         </div>
       </div>
-      <div className="flex flex-row mad4:absolute mad4:bottom-0 mad4:mb-10 mad5:mt-[20rem]">
+      <div className="flex flex-row mad4:absolute mad4:bottom-0 mad4:mb-10">
         <div className="flex flex-row ml-3 mt-8">
           <IoChatboxOutline className="text-white mad5:mt-1" size={20} />
           <span className="text-[1rem] mad1:text-[0.9rem] text-white ml-2 mad5:text-xl">

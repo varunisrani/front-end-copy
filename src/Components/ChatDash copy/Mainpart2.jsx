@@ -1,10 +1,10 @@
+import Top from "../Dashboard/Slidebar/Top";
 import Chat from "./Chat";
-import TopSlideBAr from "./TopSlideBAr";
 
 export default function Mainpart2() {
   return (
     <div className="topmain">
-      <TopSlideBAr />
+      <Top />
       <div className="topchat">
         <Chat />
       </div>

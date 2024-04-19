@@ -5,10 +5,10 @@ import { IoChatbubbleOutline } from "react-icons/io5";
 export default function Chat() {
   return (
     <div className="flex flex-col bg-nb7 w-full  mad:flex mad:flex-col mt-10">
-      <span className="text-white text-3xl text-center mt-5  ">
+      <span className="text-white text-3xl text-center mt-5 mad5:text-4xl">
         Innovation Starter Pack
       </span>
-      <span className="text-[1rem] text-nb3/80 text-center mt-5">
+      <span className="text-[1rem] text-nb3/80 text-center mt-5 mad5:text-xl">
         Kickstart your innovation process with our comprehensive selection of
         predefined prompts.
       </span>

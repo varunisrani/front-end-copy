@@ -9,7 +9,7 @@ export default function ImageChat1() {
           src="https://i.ibb.co/CVv9bLv/Avatar.png"
           className="h-[2rem]  ml-10"
         />
-        <span className="  mad:ml-4 text-white text-[1rem] mt-1 ml-6 font-medium">
+        <span className="  mad:ml-4 text-white text-[1rem] mt-1 ml-6 font-medium mad5:text-xl">
           Artificium
         </span>
       </div>

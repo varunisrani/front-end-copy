@@ -5,7 +5,9 @@ export default function Mainpart7() {
   return (
     <div className="topmain">
       <Top />
-      <Library />
+      <div className="mad5:ml-[4rem]">
+        <Library />
+      </div>
     </div>
   );
 }

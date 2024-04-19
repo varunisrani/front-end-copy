@@ -4,14 +4,23 @@ import { LuSend } from "react-icons/lu";
 export default function Input() {
   return (
     <div className="chatinputmain">
-      <CiMicrophoneOn className="text-nb3 ml-2 mt-6" />
+      <CiMicrophoneOn
+        className="text-nb3 ml-2 mt-6 mad5:mt-[1.8rem]"
+        size={20}
+      />
       <input
         type="text"
         className="chatinput"
         placeholder="You can ask me anything! I am here to help."
       />
-      <FaFileMedical className="text-nb3 ml-[31rem] mt-5 mad2:ml-[25rem]" />
-      <LuSend className="text-nb3 ml-8 mt-5 mad1:mr-3 mad2:mr-3" />
+      <FaFileMedical
+        className="text-nb3 ml-[31rem] mt-5 mad2:ml-[25rem] mad5:ml-[35rem] mad5:mt-[1.8rem] "
+        size={20}
+      />
+      <LuSend
+        className="text-nb3 ml-8 mt-5 mad1:mr-3 mad2:mr-3 mad5:mt-[1.8rem]"
+        size={20}
+      />
     </div>
   );
 }

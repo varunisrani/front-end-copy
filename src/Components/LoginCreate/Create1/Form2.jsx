@@ -15,7 +15,7 @@ export default function Form2() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.3, delay: 0.1 }}
-          className="regtext"
+          className="text-4xl mad5:text-5xl font-thin text-white"
         >
           Connect with your team and bring your
         </motion.span>
@@ -23,7 +23,7 @@ export default function Form2() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.3, delay: 0.2 }}
-          className="regtext"
+          className="text-4xl  mad5:text-5xl font-thin text-white"
         >
           creative ideas to life.
         </motion.span>
@@ -67,8 +67,10 @@ export default function Form2() {
         className="flex flex-row mt-10"
       >
         <input type="checkbox" id="myCheckbox" name="myCheckbox" />
-        <span className="text-[0.9rem] text-nb3 ml-2">I agree with</span>
-        <span className="text-[0.9rem] ml-2 bg-gradient-to-r from-green-200 via-green-200 to-green-300 bg-clip-text text-transparent">
+        <span className="text-[0.9rem] text-nb3 ml-2 mad5:text-xl">
+          I agree with
+        </span>
+        <span className="text-[0.9rem] ml-2 bg-gradient-to-r from-green-200 via-green-200 to-green-300 bg-clip-text text-transparent mad5:text-xl">
           Terms and conditions
         </span>
       </motion.div>
@@ -76,7 +78,7 @@ export default function Form2() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.3, delay: 0.8 }}
-        className="regaccount"
+        className="bg-sg5 rounded-lg py-3 text-[1rem] font-medium w-[41rem] mad5:w-[51.4rem] mad5:text-xl mad5:py-4 mt-10"
       >
         <Link to="/create2">Create free account</Link>
       </motion.button>

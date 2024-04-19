@@ -14,7 +14,7 @@ export default function Form3() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.3, delay: 0.1 }}
-          className="text-4xl font-thin text-white"
+          className="text-4xl font-thin text-white mad5:text-5xl"
         >
           Join or Create a Workspace
         </motion.span>
@@ -22,7 +22,7 @@ export default function Form3() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.3, delay: 0.2 }}
-          className="text-[1rem] text-nb3 mt-5"
+          className="text-[1rem] text-nb3 mt-5 mad5:text-xl"
         >
           Connect with others by joining an existing workspace or create a new
           one to collaborate
@@ -42,13 +42,13 @@ export default function Form3() {
           className="flex flex-row mt-[4rem]"
         >
           <input
-            className="px-10 w-[27rem] py-4 bg-nb6 text-[1rem] text-white rounded-lg"
+            className="px-10 w-[27rem] py-4 mad5:px-10 mad5:w-[30rem] mad5:py-7 mad5:text-xl bg-nb6 text-[1rem] text-white rounded-lg"
             placeholder="Your workspace URL .artificium.app"
           />
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="w-[10rem] bg-sg5 text-[1rem] px-2 font-medium rounded-lg ml-10"
+            className="w-[10rem] mad5:w-[15rem] bg-sg5 text-[1rem] px-2 font-medium rounded-lg ml-10 mad5:text-[1.2rem]"
           >
             <Link to="/create3">Join Workspace</Link>
           </motion.button>
@@ -57,7 +57,7 @@ export default function Form3() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.3, delay: 0.5 }}
-          className="w-[40rem] bg-nb6 text-[1rem] text-nb3 py-3 rounded-lg mt-20"
+          className="w-[40rem] mad5:w-[48rem] mad5:py-5 bg-nb6 text-[1rem] mad5:text-xl text-nb3 py-3 rounded-lg mt-20"
         >
           <Link to="/create3">Create new Workspace</Link>
         </motion.button>

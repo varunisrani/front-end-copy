@@ -6,9 +6,9 @@ export default function Mainpart1() {
       <div>
         <img
           src="https://i.ibb.co/rfCS6JF/Logo.png"
-          className="h-8 w-8 ml-5 mt-5 "
+          className="h-8 w-8 ml-5 mt-5 mad5:h-10 mad5:w-10 mad5:ml-10 mad5:mt-10"
         />
-        <div className="mad3:mt-[9rem] mad4:ml-[4rem] mad5:mt-[15rem] mad5:ml-[7rem]">
+        <div className="mad3:mt-[9rem] mad4:ml-[4rem] mad5:mt-[11rem] mad5:ml-[7rem]">
           <Form1 />
         </div>
       </div>

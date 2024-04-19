@@ -6,14 +6,14 @@ export default function Mainpart4() {
       <div className="flex flex-row ml-5 mt-10">
         <img
           src="https://i.ibb.co/rfCS6JF/Logo.png"
-          className="h-8 w-8 ml-5  "
+          className="h-8 w-8  mad5:h-10 mad5:w-10 mad5:ml-5 mad5:mt-2"
         />
       </div>
       <img
         src="https://i.ibb.co/BNWRYbM/Illustration1.png"
         className="flex absolute top-0 right-0 h-1/2 w-1/1 min-h-screen"
       />
-      <div className="mad3:mt-[4rem] mad4:ml-[3rem] mad5:mt-[10rem] mad5:ml-[9rem]">
+      <div className="mad3:mt-[4rem] mad4:ml-[3rem] mad5:mt-[10rem] mad5:ml-[4rem]">
         <Form4 />
       </div>
       <div className="about">

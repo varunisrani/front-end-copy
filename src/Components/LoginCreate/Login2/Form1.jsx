@@ -7,8 +7,10 @@ export default function Form1() {
   return (
     <div className="loginform">
       <div className="flex flex-row">
-        <span className="text-3xl font-thin text-white">Hello,</span>
-        <span className="bg-gradient-to-r from-blue-500 via-blue-300 to-green-300 text-transparent bg-clip-text text-3xl font-medium ml-1">
+        <span className="text-3xl font-thin text-white mad5:text-4xl">
+          Hello,
+        </span>
+        <span className="bg-gradient-to-r from-blue-500 via-blue-300 to-green-300 text-transparent bg-clip-text text-3xl font-medium ml-1 mad5:text-4xl">
           Mikołaj!
         </span>
       </div>
@@ -16,7 +18,9 @@ export default function Form1() {
         Log in to Artificium to start creating magic.
       </span>
 
-      <F2 />
+      <div className="mad5:ml-[3.2rem]">
+        <F2 />
+      </div>
 
       <div className="mt-5">
         <F1 />

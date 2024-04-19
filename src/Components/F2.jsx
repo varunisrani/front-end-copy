@@ -1,7 +1,7 @@
 export default function F2() {
   return (
     <>
-      <div className="flex flex-row ml-1 mt-10">
+      <div className="flex flex-row ml-1 mt-10 mad:mt-7">
         <button className="px-10 py-3 border flex gap-2 border-slate-200 dark:border-slate-700 rounded-lg text-slate-700 dark:text-slate-200 hover:border-slate-400 dark:hover:border-slate-500 hover:text-slate-900 dark:hover:text-slate-300 hover:shadow transition duration-150 mt-5">
           <img
             className="w-4 h-4"
@@ -11,7 +11,7 @@ export default function F2() {
           />
           <span className="text-xs text-nb4">Google Acoount</span>
         </button>
-        <button className="px-8 py-3 border flex gap-2 border-slate-200 dark:border-slate-700 rounded-lg text-slate-700 dark:text-slate-200 hover:border-slate-400 dark:hover:border-slate-500 hover:text-slate-900 dark:hover:text-slate-300 hover:shadow transition duration-150 mt-5 ml-20">
+        <button className="px-8 py-3 border flex gap-2 border-slate-200 dark:border-slate-700 rounded-lg text-slate-700 dark:text-slate-200 hover:border-slate-400 dark:hover:border-slate-500 hover:text-slate-900 dark:hover:text-slate-300 hover:shadow transition duration-150 mt-5 ml-20 mad6:ml-7">
           <svg viewBox="0 0 384 512" width="11">
             <path
               fill="currentColor"

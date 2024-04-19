@@ -11,7 +11,7 @@ export default function Top() {
       transition={{ duration: 0.3 }}
       className="flex flex-col "
     >
-      <nav className="flex flex-col mac:w-[20rem] mad2:w-[70rem]  bg-nb8 h-[11rem] rounded-lg mt-3 mr-2 ml-3">
+      <nav className="flex flex-col mac:w-[20rem] mad2:w-[70rem] mad6:w-[59rem] bg-nb8 h-[11rem] rounded-lg mt-3 mr-2 ml-3">
         <div className="flex flex-row">
           <div className="flex flex-col ml-5 mt-5">
             <span className="text-xl text-white">Orbital Oddysey</span>

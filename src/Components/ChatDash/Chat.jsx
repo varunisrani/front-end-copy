@@ -43,7 +43,7 @@ export default function Chat() {
           />
         </div>
 
-        <div className="mad:flex mad:justify-center mad:items-center mad2:mt-10 mad3:mt-10 mad5:flex mad5:flex-row mad5:justify-center mad5:items-center">
+        <div className="mad:flex mad:justify-center mad:items-center mad2:mt-10 mad3:mt-10 mad5:flex mad5:flex-row mad5:justify-center mad5:items-center mad6:mt-6">
           <Input />
         </div>
       </div>

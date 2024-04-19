@@ -25,7 +25,7 @@ export default function Library() {
           <span className="text-[1rem] text-white ml-5 mt-5 mad5:text-2xl">
             Documents
           </span>
-          <BsThreeDotsVertical className="text-white mt-7 ml-[13rem] mad5:ml-[15.6rem]" />
+          <BsThreeDotsVertical className="text-white mt-7 ml-[13rem] mad5:ml-[15.6rem] mad6:ml-[8rem]" />
         </div>
         <Doucuments
           name="Character bios"
@@ -53,7 +53,7 @@ export default function Library() {
           <span className="text-[1rem] text-white ml-5 mt-5 mad5:text-2xl">
             Ideas
           </span>
-          <BsThreeDotsVertical className="text-white mt-7 ml-[14rem]" />
+          <BsThreeDotsVertical className="text-white mt-7 ml-[14rem] mad6:ml-[9rem]" />
         </div>
         <Ideas
           title="Concept art for potential new characters or locations."

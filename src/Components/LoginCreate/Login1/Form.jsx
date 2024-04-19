@@ -6,10 +6,10 @@ export default function Form() {
   return (
     <div className="loginform">
       <div className="flex flex-row">
-        <span className="text-3xl mad5:text-4xl font-thin text-white">
+        <span className="text-3xl mad5:text-4xl font-thin text-white mad6:text-2xl">
           Let's get
         </span>
-        <span className="bg-gradient-to-r from-blue-500 via-blue-300 to-green-300 text-transparent bg-clip-text text-3xl font-medium ml-1 mad5:ml-2 mad5:text-4xl">
+        <span className="bg-gradient-to-r from-blue-500 via-blue-300 to-green-300 text-transparent bg-clip-text text-3xl font-medium ml-1 mad5:ml-2 mad5:text-4xl mad6:text-2xl">
           creative!
         </span>
       </div>

@@ -17,7 +17,7 @@ export default function Chat() {
             <BsThreeDotsVertical className="ml-7" size={20} />
           </div>
         </div>
-        <div className="flex flex-col w-[55rem] mad1:w-[48rem] mad2:w-[48rem] mad5:w-[78rem] mad5:h-[37rem] h-[6rem] bg-nb6 rounded-lg mt-10 mad1:mt-0 mad2:mt-0 ml-5 border border-nb4 border-opacity-10 mad:mt-10">
+        <div className="flex flex-col w-[55rem] mad1:w-[48rem] mad2:w-[48rem] mad5:w-[78rem] mad5:h-[37rem] mad6:w-[40rem] mad6:h-[24rem] h-[6rem] bg-nb6 rounded-lg mt-10 mad1:mt-0 mad2:mt-0 ml-5 border border-nb4 border-opacity-10 mad:mt-10">
           <div className="flex flex-row mt-10">
             <img
               src="https://i.ibb.co/CVv9bLv/Avatar.png"
@@ -27,7 +27,7 @@ export default function Chat() {
               Artificium
             </span>
           </div>
-          <span className="text-[1rem]  ml-[6rem] text-nb3 mt-3 mad:ml-12 mad5:text-xl mad5:ml-[7rem] mad5:mr-2">
+          <span className="text-[1rem]  ml-[6rem] text-nb3 mt-3 mad:ml-12 mad5:text-xl mad5:ml-[7rem] mad5:mr-2 mad6:text-xs mad6:ml-[5.5rem]">
             I'm glad you like the name Cosmic Voyager! And I agree, it's a great
             name for a spaceship. As for the concept art, I have some new
             designs that might be more to your liking. Take a look at these

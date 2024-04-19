@@ -5,7 +5,7 @@ export default function Input() {
   return (
     <div className="chatinputmain">
       <CiMicrophoneOn
-        className="text-nb3 ml-2 mt-6 mad5:mt-[1.8rem]"
+        className="text-nb3 ml-2 mt-6 mad5:mt-[1.8rem] mad6:mt-5"
         size={20}
       />
       <input
@@ -14,7 +14,7 @@ export default function Input() {
         placeholder="You can ask me anything! I am here to help."
       />
       <FaFileMedical
-        className="text-nb3 ml-[31rem] mt-5 mad2:ml-[25rem] mad5:ml-[35rem] mad5:mt-[1.8rem] "
+        className="text-nb3 ml-[31rem] mt-5 mad2:ml-[25rem] mad5:ml-[35rem] mad5:mt-[1.8rem] mad6:ml-[15rem] "
         size={20}
       />
       <LuSend

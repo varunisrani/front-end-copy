@@ -15,7 +15,7 @@ export default function Form2() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.3, delay: 0.1 }}
-          className="text-4xl mad5:text-5xl font-thin text-white"
+          className="text-4xl mad5:text-5xl mad6:text-2xl font-thin text-white "
         >
           Connect with your team and bring your
         </motion.span>
@@ -23,7 +23,7 @@ export default function Form2() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.3, delay: 0.2 }}
-          className="text-4xl  mad5:text-5xl font-thin text-white"
+          className="text-4xl  mad5:text-5xl mad6:text-2xl font-thin text-white"
         >
           creative ideas to life.
         </motion.span>
@@ -67,10 +67,10 @@ export default function Form2() {
         className="flex flex-row mt-10"
       >
         <input type="checkbox" id="myCheckbox" name="myCheckbox" />
-        <span className="text-[0.9rem] text-nb3 ml-2 mad5:text-xl">
+        <span className="text-[0.9rem] text-nb3 ml-2 mad5:text-xl mad5:w-[25rem] mad5:py-4 mad6:text-xs">
           I agree with
         </span>
-        <span className="text-[0.9rem] ml-2 bg-gradient-to-r from-green-200 via-green-200 to-green-300 bg-clip-text text-transparent mad5:text-xl">
+        <span className="text-[0.9rem] ml-2 bg-gradient-to-r from-green-200 via-green-200 to-green-300 bg-clip-text text-transparent mad5:text-xl mad5:w-[25rem] mad5:py-4 mad6:text-xs">
           Terms and conditions
         </span>
       </motion.div>
@@ -78,7 +78,7 @@ export default function Form2() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.3, delay: 0.8 }}
-        className="bg-sg5 rounded-lg py-3 text-[1rem] font-medium w-[41rem] mad5:w-[51.4rem] mad5:text-xl mad5:py-4 mt-10"
+        className="bg-sg5 rounded-lg py-3 text-[1rem] font-medium w-[41rem] mad5:w-[51.4rem] mad5:text-xl mad5:py-4 mad6:w-[27.4rem] mad6:text-[0.8rem] mad6:py-2 mt-10"
       >
         <Link to="/create2">Create free account</Link>
       </motion.button>

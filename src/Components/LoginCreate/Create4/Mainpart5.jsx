@@ -6,7 +6,7 @@ export default function Mainpart5() {
       <div className="flex flex-row ml-5 mt-10">
         <img
           src="https://i.ibb.co/rfCS6JF/Logo.png"
-          className="h-8 w-8  mad5:h-10 mad5:w-10 mad5:ml-5 mad5:mt-2"
+          className="h-8 w-8 ml-5 mt-5 mad5:h-10 mad5:w-10 mad5:ml-10 mad5:mt-10 mad6:ml-3 mad6:mt-0"
         />
       </div>
       <img

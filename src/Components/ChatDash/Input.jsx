@@ -18,7 +18,7 @@ export default function Input() {
         size={20}
       />
       <LuSend
-        className="text-nb3 ml-8 mt-5 mad1:mr-3 mad2:mr-3 mad5:mt-[1.8rem]"
+        className="text-nb3 ml-8 mt-5 mad1:mr-3 mad2:mr-3 mad5:mt-[1.8rem] mr-5"
         size={20}
       />
     </div>

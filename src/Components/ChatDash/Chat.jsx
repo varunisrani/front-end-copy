@@ -2,7 +2,6 @@ import Input from "./Input";
 import { FaRegStar } from "react-icons/fa";
 import { BsThreeDotsVertical } from "react-icons/bs";
 
-import Image7 from "./Image7";
 import User from "./User";
 import Chatcomp from "./Chatcomp";
 export default function Chat() {

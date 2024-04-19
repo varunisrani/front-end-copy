@@ -55,7 +55,7 @@
     @apply flex flex-col w-[55rem] mad5:w-[70rem] mad1:w-[48rem] mad2:mt-5 mad2:w-[48rem] h-[6rem] mad5:h-[8rem] bg-nb6 rounded-lg mt-10 mad1:mt-7 ml-5 border border-nb4 border-opacity-20 rounded-lg mad:mt-10;
   }
   .user {
-    @apply flex flex-col mad:absolute mad:right-0 mad:mr-10;
+    @apply flex flex-col mad:absolute mad:right-0 mad:mr-10 mad5:h-screen;
   }
   .chatimage {
     @apply h-[5rem] w-[5rem] rounded-lg;

@@ -1,5 +1,5 @@
 import "./App.css";
-
+import { Analytics } from "@vercel/analytics/react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Login1 from "./Components/LoginCreate/Login1/Login1";
 import Login2 from "./Components/LoginCreate/Login2/Login2";
@@ -84,6 +84,7 @@ function App() {
   return (
     <>
       <RouterProvider router={router} />
+      <Analytics />
     </>
   );
 }

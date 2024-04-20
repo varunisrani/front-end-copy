@@ -17,8 +17,8 @@ export default function Chat() {
             <BsThreeDotsVertical className="ml-7" size={20} />
           </div>
         </div>
-        <div className="flex flex-col w-[55rem]  mad1:w-[48rem] mad2:w-[48rem] mad5:w-[78rem] mad5:h-[37rem] mad6:w-[32rem] mad6:h-[20rem] h-[6rem] bg-nb6 rounded-lg mt-10 mad1:mt-0 mad2:mt-0 ml-5 border border-nb4 border-opacity-10 mad:mt-10 mad6:mt-7 mad6:mr-[8rem]">
-          <div className="flex flex-row mt-10 mad6:mt-5 ">
+        <div className="flex flex-col w-[55rem]  mad1:w-[48rem] mad2:w-[48rem] mad5:w-[78rem] mad5:h-[32rem] mad6:w-[32rem] mad6:h-[20rem] h-[6rem] bg-nb6 rounded-lg mt-10 mad1:mt-0 mad2:mt-0 ml-5 border border-nb4 border-opacity-10 mad:mt-10 mad6:mt-7 mad6:mr-[8rem] mad5:h-[20rem]">
+          <div className="flex flex-row mt-10 mad5:mt-1 mad6:mt-5 ">
             <img
               src="https://i.ibb.co/CVv9bLv/Avatar.png"
               className="h-[2rem]  ml-10 mad5:h-[3rem]"
@@ -40,15 +40,15 @@ export default function Chat() {
           <div className="flex flex-row ml-[6rem] mt-10 gap-7 mad:ml-12">
             <img
               src="https://i.ibb.co/sP9Zd2P/Image.png"
-              className="h-[12rem] w-[12rem] mad:h-[9rem] mad:w-[9rem] mad1:h-[10rem] mad1:w-[10rem] mad2:h-[10rem] mad2:w-[10rem] mad5:h-[20rem] mad5:w-[20rem] mad6:h-[7rem] mad6:w-[7rem]"
+              className="h-[12rem] w-[12rem] mad:h-[9rem] mad:w-[9rem] mad1:h-[10rem] mad1:w-[10rem] mad2:h-[10rem] mad2:w-[10rem] mad5:h-[17rem] mad5:w-[17rem] mad6:h-[7rem] mad6:w-[7rem]"
             />
             <img
               src="https://i.ibb.co/ZN1yDK7/Image.png"
-              className="h-[12rem] w-[12rem] mad:h-[9rem] mad:w-[9rem] mad1:h-[10rem] mad1:w-[10rem] mad2:h-[10rem] mad2:w-[10rem] mad5:h-[20rem] mad5:w-[20rem] mad6:h-[7rem] mad6:w-[7rem]"
+              className="h-[12rem] w-[12rem] mad:h-[9rem] mad:w-[9rem] mad1:h-[10rem] mad1:w-[10rem] mad2:h-[10rem] mad2:w-[10rem] mad5:h-[17rem] mad5:w-[17rem] mad6:h-[7rem] mad6:w-[7rem]"
             />
             <img
               src="https://i.ibb.co/T2XF8G6/Image.png"
-              className="h-[12rem] w-[12rem] mad:h-[9rem] mad:w-[9rem] mad1:h-[10rem] mad1:w-[10rem] mad2:h-[10rem] mad2:w-[10rem] mad5:h-[20rem] mad5:w-[20rem] mad6:h-[7rem] mad6:w-[7rem]"
+              className="h-[12rem] w-[12rem] mad:h-[9rem] mad:w-[9rem] mad1:h-[10rem] mad1:w-[10rem] mad2:h-[10rem] mad2:w-[10rem] mad5:h-[17rem] mad5:w-[17rem] mad6:h-[7rem] mad6:w-[7rem]"
             />
           </div>
         </div>

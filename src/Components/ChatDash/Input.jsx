@@ -14,7 +14,7 @@ export default function Input() {
         placeholder="You can ask me anything! I am here to help."
       />
       <FaFileMedical
-        className="text-nb3 ml-[31rem] mt-5 mad2:ml-[25rem] mad5:ml-[35rem] mad5:mt-[1.8rem] mad6:ml-[15rem] "
+        className="text-nb3 ml-[31rem] mt-5 mad2:ml-[25rem] mad5:ml-[35rem] mad5:mt-[1.8rem] mad6:ml-[5rem]"
         size={20}
       />
       <LuSend

@@ -3,7 +3,7 @@ import Image1 from "../Dashboard2(image)/Image1";
 export default function ImageChat() {
   return (
     <div className="imagemain">
-      <div className="flex flex-row mt-10">
+      <div className="flex flex-row mt-10 mad6:mt-5">
         <img
           src="https://i.ibb.co/CVv9bLv/Avatar.png"
           className="h-[2rem]  ml-10"

@@ -13,7 +13,7 @@ export default function Mainpart3() {
         src="https://i.ibb.co/JHp56pq/Illustration.png"
         className="flex absolute top-0 right-0 h-1/2 w-1/1 mad:w-1/3 min-h-screen"
       />
-      <div className="mad3:ml-[5rem] mad3:mt-[4rem] mad4:ml-[7rem] mad5:mt-[8rem] mad5:ml-[12rem] mad6:mt-[3rem]">
+      <div className="mad3:ml-[5rem] mad3:mt-[4rem] mad4:ml-[7rem] mad5:mt-[8rem] mad5:ml-[16rem] mad6:mt-[3rem]">
         <Form3 />
       </div>
       <div className="about">

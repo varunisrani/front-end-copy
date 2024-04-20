@@ -13,7 +13,7 @@ export default function Chatcomp({ link1, name, time, mes }) {
           {time} min ago
         </span>
       </div>
-      <span className="text-[1rem] ml-16 text-nb3 mt-1 mad5:ml-[5.5rem] mad5:text-xl mr-2">
+      <span className="text-[1rem] ml-16 text-nb3 mt-1 mad5:ml-[5.5rem] mad5:text-xl mr-2 mad6:text-xs ">
         {mes}
       </span>
     </div>

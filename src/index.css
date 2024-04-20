@@ -4,7 +4,7 @@
 
 @layer utilities {
   .slidebar {
-    @apply flex flex-col min-h-screen w-[22rem] mad1:w-[25rem] bg-nb8 rounded-lg mt-2 ml-2 mb-2 mad:w-[17rem]  mad:mr-2;
+    @apply flex flex-col min-h-screen w-[22rem]  mad1:w-[25rem] bg-nb8 rounded-lg mt-2 ml-2 mb-2 mad:w-[17rem]  mad:mr-2;
   }
   .topmain {
     @apply flex flex-col w-full;
@@ -19,7 +19,7 @@
     @apply mad:flex mad:flex-row mad:justify-center mad:items-center mad:mr-60;
   }
   .inputmain {
-    @apply flex flex-row  text-xl w-full mad1:mr-10  mad6:w-[52rem] ml-[1rem] mr-[1rem] mac:w-[34rem] bg-nb8 h-[5rem] rounded-xl mt-8  mac:ml-5 mac:mt-1;
+    @apply flex flex-row  text-xl w-full mad1:mr-10 mad6:mr-[6rem] mad6:w-[47rem]  ml-[1rem] mr-[1rem] mac:w-[34rem] bg-nb8 h-[5rem] rounded-xl mt-8  mac:ml-5 mac:mt-1;
   }
   .input {
     @apply w-[40rem] bg-nb8 text-xl text-white ml-2  focus:outline-none;
@@ -28,7 +28,7 @@
     @apply flex flex-row min-h-screen w-full bg-nb7;
   }
   .chatmain {
-    @apply flex flex-row justify-between items-center ml-12 mr-12 mt-[5rem] mad:flex mad:flex-row mad:justify-between mad:ml-10 mad:gap-7 mad:mr-20;
+    @apply flex flex-row justify-between items-center ml-12 mad6:ml-5 mr-12 mt-[5rem] mad:flex mad:flex-row mad:justify-between mad:ml-10 mad:gap-7 mad:mr-20;
   }
   .imagemain {
     @apply flex flex-col bg-nb7 w-full h-[15rem] mad:mt-5;
@@ -43,7 +43,7 @@
     @apply flex flex-row min-h-screen w-full bg-nb6 gap-2;
   }
   .chatinputmain {
-    @apply flex flex-row w-[55rem] mad6:w-[37rem] mad1:w-[48rem] mad2:w-[48rem] mad5:w-[60rem] mad5:h-[5rem] bg-nb8 h-[4rem] rounded-lg mt-6 mad6:mt-0 ml-5 mr-2 mad:mt-10;
+    @apply flex flex-row w-[55rem] mad6:w-[28rem] mad1:w-[48rem] mad2:w-[48rem] mad5:w-[60rem] mad5:h-[5rem] bg-nb8 h-[4rem] rounded-lg mt-6 mad6:mt-0 ml-5 mr-2 mad:mt-10;
   }
   .input {
     @apply w-[16rem] bg-nb8 text-white text-xs ml-2  focus:outline-none;
@@ -52,7 +52,7 @@
     @apply w-[16rem] bg-nb8 text-white text-[1rem] ml-2  focus:outline-none;
   }
   .chatuser {
-    @apply flex flex-col w-[55rem] mad5:w-[70rem] mad6:w-[35rem] mad1:w-[48rem] mad2:mt-5 mad2:w-[48rem] h-[6rem] mad5:h-[8rem] bg-nb6 rounded-lg mt-10 mad1:mt-7 ml-5 border border-nb4 border-opacity-20 rounded-lg mad:mt-10;
+    @apply flex flex-col w-[55rem] mad5:w-[70rem] mad6:w-[28rem] mad1:w-[48rem] mad2:mt-5 mad2:w-[48rem] h-[6rem] mad5:h-[8rem] bg-nb6 rounded-lg mt-10 mad1:mt-7 ml-5 border border-nb4 border-opacity-20 rounded-lg mad:mt-10;
   }
   .user {
     @apply flex flex-col mad:absolute mad:right-0 mad:mr-10 mad5:h-screen;
@@ -76,7 +76,7 @@
     @apply flex flex-row ml-10 absolute bottom-0 mb-7 text-xl text-nb3;
   }
   .Form {
-    @apply flex flex-col ml-[6rem] mt-[6rem] mad:ml-20 mad:pl-10 mad:mt-10 mad:pt-5 mb-12;
+    @apply flex flex-col ml-[6rem] mt-[6rem] mad6:ml-[2rem] mad:ml-20 mad:pl-10 mad:mt-10 mad:pt-5 mb-12;
   }
   .regaccount {
     @apply bg-sg5 rounded-lg py-3 text-[1rem] font-medium w-[41rem] mt-10;
@@ -103,10 +103,10 @@
     @apply flex flex-row text-xs text-white ml-5 mt-8;
   }
   .library {
-    @apply flex flex-row gap-8 mad1:gap-4 mad6:gap-4 mad1:mr-[12rem] mad:flex mad:flex-row mad:justify-between mad:mr-20;
+    @apply flex flex-row gap-8 mad1:gap-4 mad6:gap-1 mad1:mr-[12rem] mad:flex mad:flex-row mad:justify-between mad:mr-20;
   }
   .librarysub {
-    @apply flex flex-col h-screen bg-nb7 ml-20 mad6:ml-5 mb-10;
+    @apply flex flex-col h-screen bg-nb7 ml-20 mad6:ml-2 mb-10;
   }
   .libraryimage {
     @apply flex flex-col w-[19rem] h-[15rem] mad5:w-[25rem] mad5:h-[17rem] bg-nb8 rounded-lg mt-5 ml-2;

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function Form5() {
   return (
-    <div className="flex flex-col justify-center items-center h-screen  mad:ml-20 mad:pl-10 ml-[10rem] pl-5 pb-5 mad6:ml-[2rem] ">
+    <div className="flex flex-col justify-center items-center h-screen  mad:ml-20 mad1:ml-[8rem] mad:pl-10 ml-[10rem] pl-5 pb-5 mad6:ml-[2rem] ">
       <img
         src="https://i.ibb.co/D84R9Qx/Avatar.png"
         className="h-[4rem] w-[4rem] mad5:h-[7rem] mad5:w-[7rem] mad6:h-[4rem] mad6:w-[4rem]"

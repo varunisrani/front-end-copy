@@ -4,7 +4,7 @@ import { IoChatbubbleOutline } from "react-icons/io5";
 
 export default function Chat() {
   return (
-    <div className="flex flex-col bg-nb7 w-full  mad:flex mad:flex-col mt-10">
+    <div className="flex flex-col bg-nb7 w-full  mad:flex mad:flex-col mt-10 mad1:mt-5">
       <span className="text-white text-3xl text-center mt-5 mad5:text-4xl">
         Innovation Starter Pack
       </span>

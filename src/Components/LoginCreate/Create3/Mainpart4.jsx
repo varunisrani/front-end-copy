@@ -18,7 +18,7 @@ export default function Mainpart4() {
       </div>
       <div className="about">
         <span>Artificium.app © 2023</span>
-        <span className="ml-[37rem] pl-10 mad1:ml-[29rem] mad2:ml-[34rem] mad3:ml-[34rem] mad4:ml-[33rem] mad5:ml-[44rem]">
+        <span className="ml-[37rem] pl-10 mad1:ml-[24rem] mad2:ml-[34rem] mad3:ml-[34rem] mad4:ml-[33rem] mad5:ml-[44rem]">
           Privacy Policy
         </span>
       </div>

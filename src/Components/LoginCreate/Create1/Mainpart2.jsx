@@ -16,7 +16,7 @@ export default function Mainpart2() {
         src="https://i.ibb.co/JHp56pq/Illustration.png"
         className="flex absolute top-0 right-0 h-1/2 w-1/1 mad:w-1/3 min-h-screen"
       />
-      <div className="mad3:mt-10 mad4:ml-[8rem] mad5:mt-[1rem] mad5:ml-[9rem] mad6:mt-[3rem] mad6:ml-[0.5rem]">
+      <div className="mad3:mt-10 mad4:ml-[8rem] mad5:mt-[1rem] mad5:ml-[9rem] mad6:mt-[3rem] mad6:ml-[0.5rem] ">
         <Form2 />
       </div>
       <div className="about">

@@ -15,7 +15,7 @@ export default function Form2() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.3, delay: 0.1 }}
-          className="text-4xl mad5:text-5xl mad6:text-2xl font-thin text-white "
+          className="text-4xl mad5:text-5xl mad6:text-2xl font-thin text-white mad1:text-3xl "
         >
           Connect with your team and bring your
         </motion.span>
@@ -23,7 +23,7 @@ export default function Form2() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.3, delay: 0.2 }}
-          className="text-4xl  mad5:text-5xl mad6:text-2xl font-thin text-white"
+          className="text-4xl  mad5:text-5xl mad6:text-2xl font-thin text-white mad1:text-3xl"
         >
           creative ideas to life.
         </motion.span>

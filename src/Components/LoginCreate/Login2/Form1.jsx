@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import F1 from "../../F1";
 import F2 from "../../F2";
+import Login11 from "../Login1/Login11";
 
 // eslint-disable-next-line react/prop-types
 export default function Form1() {
@@ -23,7 +23,7 @@ export default function Form1() {
       </div>
 
       <div className="mt-5">
-        <F1 />
+        <Login11 />
       </div>
       <div className="flex flex-row mt-10 items-center justify-center">
         <span className="text-xl text-nb4 ">Don’t have an account?</span>

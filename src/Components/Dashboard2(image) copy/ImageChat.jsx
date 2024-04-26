@@ -6,7 +6,9 @@ export default function ImageChat() {
       <div className="flex flex-row mt-10 mad6:mt-5">
         <img
           src="https://i.ibb.co/CVv9bLv/Avatar.png"
-          className="h-[2rem]  ml-10"
+          className="h
+Note: If your amount is deducted from account and the application shows payment fail then please wait for few hours before making payment again.
+Please contact to epay_query@gtu.edu.in mail-ID related to only payment issues.-[2rem]  ml-10"
         />
         <span className="  mad:ml-4 text-white text-[1rem] mt-1 ml-6 font-medium mad5:text-[1rem]">
           Artificium

@@ -16,6 +16,9 @@ import HomeIIIII from "./Components/ChatDash/HomeIIIII";
 import HomeIIIIII from "./Components/ChatDash copy/HomeIIIII";
 import HomeLib from "./Components/Library/HomeLib";
 import Test from "./Components/Library/Test";
+import Trail from "./Components/Trail";
+import { useState, useEffect } from "react";
+import Authapi from "./Authapi";
 
 const router = createBrowserRouter([
   {
@@ -78,13 +81,58 @@ const router = createBrowserRouter([
     path: "/create4",
     element: <Create3 />,
   },
+  {
+    path: "/Trail",
+    element: <Trail />,
+  },
 ]);
 
 function App() {
+  const [auth, setAuth] = useState(false);
+  const [chat, setChat] = useState(false);
+  const [inputValue, setInputValue] = useState("");
+  const [questions, setQuestions] = useState([]);
+  const [isGenerating, setIsGenerating] = useState(false);
+  const [userInput, setUserInput] = useState("");
+  const [response, setResponse] = useState("");
+
+  useEffect(() => {
+    // Check if auth state is stored in local storage
+    const storedAuth = JSON.parse(localStorage.getItem("auth"));
+    if (storedAuth && storedAuth.isAuthenticated) {
+      setAuth(true);
+    }
+  }, []);
+
+  useEffect(() => {
+    // Update local storage whenever auth state changes
+    localStorage.setItem("auth", JSON.stringify({ isAuthenticated: auth }));
+  }, [auth]);
+
+  const AuthContextValue = {
+    auth,
+    setAuth,
+    chat,
+    setChat,
+    inputValue,
+    setInputValue,
+    questions,
+    setQuestions,
+    isGenerating,
+    setIsGenerating,
+    userInput,
+    setUserInput,
+    response,
+    setResponse,
+  };
+
   return (
     <>
-      <RouterProvider router={router} />
-      <Analytics />
+      <Authapi.Provider value={AuthContextValue}>
+        <RouterProvider router={router}>
+          <Analytics />
+        </RouterProvider>
+      </Authapi.Provider>
     </>
   );
 }

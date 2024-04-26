@@ -1,5 +1,6 @@
-import F1 from "../../F1";
+import { Link } from "react-router-dom";
 import F2 from "../../F2";
+import Login11 from "./Login11";
 
 // eslint-disable-next-line react/prop-types
 export default function Form() {
@@ -17,7 +18,7 @@ export default function Form() {
         Log in to Artificium to start creating magic.
       </span>
       <div className="mt-2">
-        <F1 />
+        <Login11 />
       </div>
       <div className="mad5:ml-[2.7rem]">
         <F2 />
@@ -25,7 +26,7 @@ export default function Form() {
       <div className="flex flex-row mt-5 absolute bottom-0 left-0 ml-8 mb-8">
         <span className="text-xl text-nb4">Don’t have an account?</span>
         <span className="text-xl ml-3 bg-gradient-to-r from-blue-500 via-blue-300 to-green-300 bg-clip-text text-transparent">
-          Sign Up
+          <Link to="/create1">Sign Up</Link>
         </span>
       </div>
     </div>
